@@ -1,0 +1,84 @@
+/* Reset some basic elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+/* A basic setup for images */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Utility classes */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* A simple flexbox layout for columns */
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+/* Basic button styles */
+button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #d32f2f;
+}
+
+/* Global link styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: hsl(60, 6%, 96%);
+}
+
+/* Basic layout for main content to avoid overlap with navbar */
+main {
+  margin-right: 80px; /* Adjust this if your navbar width changes */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+
+  .navbar {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  main {
+    margin-right: 0;
+  }
+}

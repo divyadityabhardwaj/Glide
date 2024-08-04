@@ -1,0 +1,68 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%; /* Full height */
+    width: 50px; /* Initial width for thin appearance */
+    background: #0E100F;
+    transition: width 0.3s ease;
+    overflow: hidden;
+    z-index: 10; /* Ensure it’s above other content */
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    padding-left: 10px;
+    font-family: 'PP Mori'
+  }
+  
+  .navbar-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-content span{
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar-content li {
+    margin: 20px 0;
+  }
+  
+  .navbar-content a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: hsl(60, 6%, 46%);
+    font-family: 'PP Mori', sans-serif;
+    font-weight: 400; 
+    font-size: 1em; 
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-content .icon {
+    height: 40px;
+    width: 40px; 
+    padding-right: 10px;   
+  }
+  
+  .navbar-content .text {
+    display: none; /* Hide text by default */
+  }
+  
+  .navbar:hover {
+    width: 150px; /* Expanded width */
+  }
+  
+  .navbar:hover .navbar-content .text {
+    display: inline; 
+    
+  }
+  

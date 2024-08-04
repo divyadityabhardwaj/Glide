@@ -1,0 +1,20 @@
+/* Import the font definitions */
+@import url('./assets/fonts/fonts.css');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'PP Mori'
+}
+
+.App {
+  display: flex;
+}
+
+main {
+  flex-grow: 1;
+  margin-right: 80px; /* Adjust to the navbar width */
+  overflow-x: hidden;
+}
+
+/* Add other global styles here */

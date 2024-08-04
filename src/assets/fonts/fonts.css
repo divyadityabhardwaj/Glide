@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'PP Mori';
+    src: url('./ppMori/PPMori-Extralight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'PP Mori';
+    src: url('./ppMori/PPMori-ExtralightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'PP Mori';
+    src: url('./ppMori/PPMori-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'PP Mori';
+    src: url('./ppMori/PPMori-RegularItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'PP Mori';
+    src: url('./ppMori/PPMori-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'PP Mori';
+    src: url('./ppMori/PPMori-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+  }
+  
